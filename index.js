@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  t = tutorials.map( s => {
+  let t = tutorials.map( s => {
     let ws = s.split(" ");
     let S = [];
     for(const w of ws){
