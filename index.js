@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  tutorials = tutorials.map( s => {
+  t = tutorials.map( s => {
     let ws = s.split(" ");
     let S = [];
     for(const w of ws){
@@ -20,5 +20,5 @@ const titleCased = () => {
     }
     return S.join(" ");
   })
-  return tutorials
+  return t;
 };
